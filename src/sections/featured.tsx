@@ -1,5 +1,5 @@
 import React from 'react'
-const images = Array(11).fill(0).map((_, i) => `/images/press/${i + 1}.png`);
+const images = Array(18).fill(0).map((_, i) => `/images/press/${i + 1}.png`);
 
 function Featured() {
   return (
