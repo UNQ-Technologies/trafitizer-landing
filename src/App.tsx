@@ -9,10 +9,8 @@ import {
   Home,
   Images,
   LeafyGreenIcon,
-  LinkedinIcon,
   SignalLowIcon,
 } from "lucide-react";
-import { Avatar, AvatarFallback, AvatarImage } from "./components/ui/avatar";
 import { HeroHighlight, Highlight } from "./components/ui/hero-highlight";
 import { motion } from "framer-motion";
 import HeroSection from "./sections/hero";
@@ -21,6 +19,7 @@ import Gallery from "./sections/gallery";
 import Featured from "./sections/featured";
 import Contact from "./sections/contact";
 import Testimonials from "./sections/testimonials";
+import Tail from "./sections/tail";
 
 const navItems = [
   {
@@ -60,38 +59,31 @@ function App() {
             <a className="flex items-center" href="#">
               <img
                 alt="Logo"
-                className="mr-3 h-10"
+                className="mr-3 h-10 w-full"
                 height="40"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "40/40",
-                  objectFit: "cover",
-                }}
-                width="40"
+                src="/images/full-logo.png"
+               
+             
               />
-              <span className="self-center text-lg font-semibold whitespace-nowrap">
-                TRAFITIZER
-              </span>
+            
             </a>
             <div className="flex space-x-4">
-              <a className="text-gray-600 hover:text-gray-900" href="#">
+              <a className="text-gray-600 hover:text-gray-900" href="#contact">
                 Contact
               </a>
-              <a className="text-gray-600 hover:text-gray-900" href="#">
+              <a className="text-gray-600 hover:text-gray-900" href="#gallery">
                 Gallery
               </a>
-              <a className="text-gray-600 hover:text-gray-900" href="#">
+              <a className="text-gray-600 hover:text-gray-900" href="#feature">
                 Feature
               </a>
-              <a className="text-gray-600 hover:text-gray-900" href="#">
+              <a className="text-gray-600 hover:text-gray-900" href="#press">
                 Press
               </a>
-              <a className="text-gray-600 hover:text-gray-900" href="#">
+              <a className="text-gray-600 hover:text-gray-900" href="#recognitions">
                 Recognitions
               </a>
-              <a className="text-gray-600 hover:text-gray-900" href="#">
-                Home
-              </a>
+        
             </div>
           </div>
         </nav>
@@ -123,7 +115,7 @@ function App() {
           </Highlight>
         </motion.h1>
       </HeroHighlight>
-      <section>
+      <section id="recognitions">
         <div className="container my-16 mx-auto px-6  w-full h-full flex items-center justify-center">
           <div className="text-center text-2xl">
             <p className="mb-4 text-justify ">
@@ -227,45 +219,7 @@ function App() {
 
       <Featured />
      <Testimonials />
-      <section className="bg-[#1a1a1a] text-white py-12 px-8">
-        <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <div className="space-y-6">
-            <p className="text-xl italic">
-              “The world's first Intelligent emergency vehicle preemption system
-              designed & proven in the extreme Indian road traffic conditions.”
-            </p>
-            <div>
-              <h3 className="text-2xl font-bold">TRAFITIZER:</h3>
-              <p className="text-base">
-                It is more than just a product, it's a commitment to saving
-                lives. Trafitizer deals with post crash emergency response time,
-                it is a one of a kind technology that is proven to reduce 30% of
-                emergency response delay time.
-              </p>
-              <p className="text-base">
-                Visit Jasim's page to know more about him:
-                <a className="text-blue-400" href="#">
-                  mjasim.com
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-col items-center">
-            <Avatar>
-              <AvatarImage
-                alt="Mohamed Jasim"
-                src="/placeholder.svg?height=128&width=128"
-              />
-              <AvatarFallback>CN</AvatarFallback>
-            </Avatar>
-            <div className="mt-4 text-center">
-              <p className="text-sm">Founder</p>
-              <p className="font-bold">Mohamed Jasim</p>
-              <LinkedinIcon className="text-blue-400 w-5 h-5 mt-1" />
-            </div>
-          </div>
-        </div>
-      </section>
+     <Tail />
       <Gallery />
       <Contact />
 
