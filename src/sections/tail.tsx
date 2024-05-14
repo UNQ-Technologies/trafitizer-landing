@@ -1,6 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { LinkedinIcon } from "lucide-react";
-import React from "react";
 
 function Tail() {
   return (

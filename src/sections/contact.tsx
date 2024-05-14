@@ -1,5 +1,4 @@
 import { MailboxIcon, MapPinIcon, PhoneIcon } from "lucide-react";
-import React from "react";
 
 function Contact() {
   return (

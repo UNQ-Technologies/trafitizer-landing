@@ -1,4 +1,3 @@
-import React from "react";
 
 const images = Array(35).fill(0).map((_, i) => `/images/gallery/${i + 1}.jpg`);
 

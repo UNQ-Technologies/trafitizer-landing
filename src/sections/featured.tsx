@@ -1,4 +1,3 @@
-import React from 'react'
 const images = Array(18).fill(0).map((_, i) => `/images/press/${i + 1}.png`);
 
 function Featured() {
