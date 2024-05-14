@@ -7,63 +7,60 @@ function Testimonials() {
         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              What Our Customers Say
+              What Others Say
             </h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Hear from real people who have used our product and loved it.
+              Hear from real people who have seen trafitizer and loved it.
             </p>
           </div>
           <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col items-start rounded-lg bg-white p-6 shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:shadow-none dark:hover:shadow-lg">
               <blockquote className="flex-1 text-lg font-semibold leading-snug">
-                "The platform has been a game-changer for our business. It's
-                easy to use and has helped us streamline our operations."
+                "Excellent technology!"
               </blockquote>
               <div className="mt-4 flex items-center gap-3">
                 <Avatar className="h-10 w-10">
-                  <AvatarImage alt="Samantha" src="/placeholder-avatar.jpg" />
-                  <AvatarFallback>SM</AvatarFallback>
+                  <AvatarImage alt="Samantha" src="/images/testimony/pinarayi-vijayan.png" />
+                  <AvatarFallback>PV</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-0.5 text-sm">
-                  <div className="font-medium">Samantha Mayer</div>
+                  <div className="font-medium">Pinarayi Vijayan</div>
                   <div className="text-gray-500 dark:text-gray-400">
-                    CEO, Acme Inc.
+                   Cheif Minister, Kerala, India
                   </div>
                 </div>
               </div>
             </div>
             <div className="flex flex-col items-start rounded-lg bg-white p-6 shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:shadow-none dark:hover:shadow-lg">
               <blockquote className="flex-1 text-lg font-semibold leading-snug">
-                "I was hesitant at first, but the onboarding process was a
-                breeze. The team is incredibly helpful and responsive."
+                "Great Initiative! Congratulations and keep going."
               </blockquote>
               <div className="mt-4 flex items-center gap-3">
                 <Avatar className="h-10 w-10">
-                  <AvatarImage alt="John" src="/placeholder-avatar.jpg" />
-                  <AvatarFallback>JD</AvatarFallback>
+                  <AvatarImage alt="John" src="/images/testimony/rajan-anandan.png" />
+                  <AvatarFallback>RA</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-0.5 text-sm">
-                  <div className="font-medium">John Doe</div>
+                  <div className="font-medium">Rajan Anandan</div>
                   <div className="text-gray-500 dark:text-gray-400">
-                    Product Manager, Acme Inc.
+                  Vice President & Managing Director, Google India
                   </div>
                 </div>
               </div>
             </div>
             <div className="flex flex-col items-start rounded-lg bg-white p-6 shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:shadow-none dark:hover:shadow-lg">
               <blockquote className="flex-1 text-lg font-semibold leading-snug">
-                "The platform has exceeded our expectations. We've seen a
-                significant increase in productivity and efficiency."
+                "I highly appreciate this system and the way it works in city traffic."
               </blockquote>
               <div className="mt-4 flex items-center gap-3">
                 <Avatar className="h-10 w-10">
-                  <AvatarImage alt="Emily" src="/placeholder-avatar.jpg" />
-                  <AvatarFallback>EW</AvatarFallback>
+                  <AvatarImage alt="Emily" src="/images/testimony/mp-dinesh.png" />
+                  <AvatarFallback>MP</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-0.5 text-sm">
-                  <div className="font-medium">Emily Watson</div>
+                  <div className="font-medium">MP Dinesh IPS</div>
                   <div className="text-gray-500 dark:text-gray-400">
-                    CTO, Acme Inc.
+                   City Police commissioner, Kochi, India
                   </div>
                 </div>
               </div>
