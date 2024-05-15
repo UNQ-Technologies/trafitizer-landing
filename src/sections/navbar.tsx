@@ -79,11 +79,12 @@ function MobileNav() {
   const [open, setOpen] = React.useState(false);
 
   return (
-    <Sheet open={open} onOpenChange={setOpen}>
+      <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
+        <div className="flex items-center py-4 px-3 space-x-2 md:hidden">
         <Button
           variant="ghost"
-          className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
+          className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 "
         >
           <svg
             strokeWidth="1.5"
@@ -116,6 +117,13 @@ function MobileNav() {
           </svg>
           <span className="sr-only">Toggle Menu</span>
         </Button>
+        <img
+              alt="Logo"
+              className="mr-3 w-64 h-auto"
+              height="20"
+              src="/images/full-logo.png"
+            />
+        </div>
       </SheetTrigger>
       <SheetContent side="left" className="pr-0">
         <a
