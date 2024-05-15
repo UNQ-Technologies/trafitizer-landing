@@ -1,11 +1,3 @@
-import {
-  AccessibilityIcon,
-  AppleIcon,
-  BrainIcon,
-  FocusIcon,
-  LeafyGreenIcon,
-  SignalLowIcon,
-} from "lucide-react";
 import { HeroHighlight, Highlight } from "./components/ui/hero-highlight";
 import { motion } from "framer-motion";
 import HeroSection from "./sections/hero";
@@ -16,11 +8,10 @@ import Testimonials from "./sections/testimonials";
 import Tail from "./sections/tail";
 import NavBar from "./sections/navbar";
 
-
 function App() {
   return (
     <main>
-     <NavBar />
+      <NavBar />
       <HeroSection />
       <HeroHighlight>
         <motion.h1
@@ -83,7 +74,14 @@ function App() {
               able to save more than 80 lives in Kochi during a short span of
               time.
             </p>
-            <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+            <button
+              onClick={() =>
+                document.getElementById("contact")?.scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
+              className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+            >
               Get the Green light
             </button>
           </div>
@@ -93,7 +91,11 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="space-y-4">
-              <img src="/images/icons/ai.png" alt="ai" className="h-12 w-12 text-blue-500" />
+              <img
+                src="/images/icons/ai.png"
+                alt="ai"
+                className="h-12 w-12 text-blue-500"
+              />
               <h3 className="text-xl font-semibold">Traffic Intelligence</h3>
               <p>
                 The AI based system makes decisions to give green light for E.V
@@ -102,7 +104,11 @@ function App() {
               </p>
             </div>
             <div className="space-y-4">
-            <img src="/images/icons/intelig.png" alt="ai" className="h-12 w-12 text-blue-500" />
+              <img
+                src="/images/icons/intelig.png"
+                alt="ai"
+                className="h-12 w-12 text-blue-500"
+              />
               <h3 className="text-xl font-semibold">Level 2 Intelligence</h3>
               <p>
                 The AI based system makes decisions to give green light for E.V
@@ -111,7 +117,11 @@ function App() {
               </p>
             </div>
             <div className="space-y-4">
-            <img src="/images/icons/export.png" alt="ai" className="h-12 w-12 text-blue-500" />
+              <img
+                src="/images/icons/export.png"
+                alt="ai"
+                className="h-12 w-12 text-blue-500"
+              />
               <h3 className="text-xl font-semibold">Priority Levels</h3>
               <p>
                 First Responders can choose the priority level. The system will
@@ -120,7 +130,11 @@ function App() {
               </p>
             </div>
             <div className="space-y-4">
-            <img src="/images/icons/compact.png" alt="ai" className="h-12 w-12 text-blue-500" />
+              <img
+                src="/images/icons/compact.png"
+                alt="ai"
+                className="h-12 w-12 text-blue-500"
+              />
               <h3 className="text-xl font-semibold">Compatibility</h3>
               <p>
                 The hardware is compatible with all the traffic signal
@@ -130,7 +144,11 @@ function App() {
               </p>
             </div>
             <div className="space-y-4">
-            <img src="/images/icons/green.png" alt="ai" className="h-12 w-12 text-blue-500" />
+              <img
+                src="/images/icons/green.png"
+                alt="ai"
+                className="h-12 w-12 text-blue-500"
+              />
               <h3 className="text-xl font-semibold">Green Corridor</h3>
               <p>
                 This facility helps to ease the process of organ
@@ -138,7 +156,11 @@ function App() {
               </p>
             </div>
             <div className="space-y-4">
-            <img src="/images/icons/cost.png" alt="ai" className="h-12 w-12 text-blue-500" />
+              <img
+                src="/images/icons/cost.png"
+                alt="ai"
+                className="h-12 w-12 text-blue-500"
+              />
               <h3 className="text-xl font-semibold">Low Operating Cost</h3>
               <p>
                 The software has undergone several architectural level revisions
@@ -151,8 +173,8 @@ function App() {
       </section>
 
       <Featured />
-     <Testimonials />
-     <Tail />
+      <Testimonials />
+      <Tail />
       <Gallery />
       <Contact />
 
