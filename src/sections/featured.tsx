@@ -17,7 +17,7 @@ function Featured() {
       {images.map(k =>  <div key={k} className="mx-auto flex w-full items-center justify-center">
           <img
             alt="Logo"
-            className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center grayscale hover:grayscale-0 transition-all"
+            className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center  hover:grayscale transition-all"
             height="70"
             src={k}
             width="140"
