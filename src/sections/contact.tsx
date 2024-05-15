@@ -39,7 +39,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="rounded-xl w-full flex h-44 items-center">
+          <div className="rounded-xl flex flex-col w-full h-44 items-center">
             <img
               alt="Map"
               className="w-[150px] h-[150px] shrink-0"
@@ -47,7 +47,7 @@ function Contact() {
             />
             <img
               alt="Name"
-              className="w-full shrink-0 grow"
+              className="aspect-auto h-[52px] my-4 shrink-0"
               src="/images/text-logo.png"
             />
           </div>

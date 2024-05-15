@@ -36,11 +36,11 @@ function CarouselSize() {
       opts={{
         align: "start",
       }}
-      className="w-full"
+      className="w-full max-w-full"
     >
       <CarouselContent>
         {images.map((i) => (
-          <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3">
+          <CarouselItem key={i} className="basis-1/2 md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
             <div className="relative group overflow-hidden rounded-lg">
               <img
