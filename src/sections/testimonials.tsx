@@ -13,11 +13,11 @@ function Testimonials() {
             </p>
           </div>
           <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="flex flex-col items-start rounded-lg bg-white p-6 shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:shadow-none dark:hover:shadow-lg">
-              <blockquote className="flex-1 text-lg font-semibold leading-snug">
+            <div className="flex flex-col items-center rounded-lg bg-white p-6 shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:shadow-none dark:hover:shadow-lg">
+              <p className="flex-1 text-center text-lg font-semibold leading-snug">
                 "Excellent technology!"
-              </blockquote>
-              <div className="mt-4 flex items-center gap-3">
+              </p>
+              <div className="mt-4 flex items-center flex-col w-full gap-3">
                 <Avatar className="h-10 w-10">
                   <AvatarImage alt="Samantha" src="/images/testimony/pinarayi-vijayan.png" />
                   <AvatarFallback>PV</AvatarFallback>
@@ -30,11 +30,11 @@ function Testimonials() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col items-start rounded-lg bg-white p-6 shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:shadow-none dark:hover:shadow-lg">
-              <blockquote className="flex-1 text-lg font-semibold leading-snug">
+            <div className="flex flex-col items-center rounded-lg bg-white p-6 shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:shadow-none dark:hover:shadow-lg">
+              <p className="flex-1 text-lg font-semibold leading-snug">
                 "Great Initiative! Congratulations and keep going."
-              </blockquote>
-              <div className="mt-4 flex items-center gap-3">
+              </p>
+              <div className="mt-4 flex items-center flex-col w-full gap-3">
                 <Avatar className="h-10 w-10">
                   <AvatarImage alt="John" src="/images/testimony/rajan-anandan.png" />
                   <AvatarFallback>RA</AvatarFallback>
@@ -47,11 +47,11 @@ function Testimonials() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col items-start rounded-lg bg-white p-6 shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:shadow-none dark:hover:shadow-lg">
-              <blockquote className="flex-1 text-lg font-semibold leading-snug">
+            <div className="flex flex-col items-center rounded-lg bg-white p-6 shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:shadow-none dark:hover:shadow-lg">
+              <p className="flex-1 text-lg font-semibold leading-snug">
                 "I highly appreciate this system and the way it works in city traffic."
-              </blockquote>
-              <div className="mt-4 flex items-center gap-3">
+              </p>
+              <div className="mt-4 flex items-center flex-col w-full gap-3">
                 <Avatar className="h-10 w-10">
                   <AvatarImage alt="Emily" src="/images/testimony/mp-dinesh.png" />
                   <AvatarFallback>MP</AvatarFallback>

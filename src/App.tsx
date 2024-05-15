@@ -1,93 +1,26 @@
 import {
   AccessibilityIcon,
   AppleIcon,
-  Award,
-  Boxes,
   BrainIcon,
-  Camera,
   FocusIcon,
-  Home,
-  Images,
   LeafyGreenIcon,
   SignalLowIcon,
 } from "lucide-react";
 import { HeroHighlight, Highlight } from "./components/ui/hero-highlight";
 import { motion } from "framer-motion";
 import HeroSection from "./sections/hero";
-import { FloatingNav } from "./components/ui/floating-navbar";
 import Gallery from "./sections/gallery";
 import Featured from "./sections/featured";
 import Contact from "./sections/contact";
 import Testimonials from "./sections/testimonials";
 import Tail from "./sections/tail";
+import NavBar from "./sections/navbar";
 
-const navItems = [
-  {
-    name: "Contact",
-    link: "#contact",
-    icon: <Home className="h-4 w-4 text-neutral-500 dark:text-white" />,
-  },
-  {
-    name: "Gallery",
-    link: "#gallery",
-    icon: <Images className="h-4 w-4 text-neutral-500 dark:text-white" />,
-  },
-  {
-    name: "Feature",
-    link: "#feature",
-    icon: <Boxes className="h-4 w-4 text-neutral-500 dark:text-white" />,
-  },
-  {
-    name: "Press",
-    link: "#press",
-    icon: <Camera className="h-4 w-4 text-neutral-500 dark:text-white" />,
-  },
-  {
-    name: "Recognitions",
-    link: "#recognitions",
-    icon: <Award className="h-4 w-4 text-neutral-500 dark:text-white" />,
-  },
-];
 
 function App() {
   return (
     <main>
-      <FloatingNav navItems={navItems} />
-      <section>
-        <nav className="bg-white border-b py-4">
-          <div className="container mx-auto flex justify-between items-center px-6">
-            <a className="flex items-center" href="#">
-              <img
-                alt="Logo"
-                className="mr-3 h-10 w-full"
-                height="40"
-                src="/images/full-logo.png"
-               
-             
-              />
-            
-            </a>
-            <div className="flex space-x-4">
-              <a className="text-gray-600 hover:text-gray-900" href="#contact">
-                Contact
-              </a>
-              <a className="text-gray-600 hover:text-gray-900" href="#gallery">
-                Gallery
-              </a>
-              <a className="text-gray-600 hover:text-gray-900" href="#feature">
-                Feature
-              </a>
-              <a className="text-gray-600 hover:text-gray-900" href="#press">
-                Press
-              </a>
-              <a className="text-gray-600 hover:text-gray-900" href="#recognitions">
-                Recognitions
-              </a>
-        
-            </div>
-          </div>
-        </nav>
-      </section>
+     <NavBar />
       <HeroSection />
       <HeroHighlight>
         <motion.h1
@@ -117,7 +50,7 @@ function App() {
       </HeroHighlight>
       <section id="recognitions">
         <div className="container my-16 mx-auto px-6  w-full h-full flex items-center justify-center">
-          <div className="text-center text-2xl">
+          <div className="text-center text-base lg:text-2xl">
             <p className="mb-4 text-justify ">
               Imagine a world where ambulances and fire trucks glide through
               traffic, saving precious minutes that could mean the difference

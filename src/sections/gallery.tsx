@@ -10,8 +10,8 @@ const images = Array(35).fill(0).map((_, i) => `/images/gallery/${i + 1}.jpg`);
 
 export default function Gallery() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
-      <div className="container grid gap-8 px-4 md:px-6 lg:grid-cols-1">
+    <section className="w-full py-12 md:py-24 lg:py-32 ">
+      <div className="container grid gap-8 px-4 md:px-6 lg:grid-cols-1 overflow-hidden">
         <div className="space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Our Gallery
@@ -20,7 +20,10 @@ export default function Gallery() {
             Explore our collection of stunning images.
           </p>
         </div>
+        <div className="w-full overflow-hidden">
+
        <CarouselSize />
+        </div>
       </div>
     </section>
   );
@@ -36,11 +39,11 @@ function CarouselSize() {
       opts={{
         align: "start",
       }}
-      className="w-full max-w-full"
+      className="w-full"
     >
       <CarouselContent>
         {images.map((i) => (
-          <CarouselItem key={i} className="basis-1/2 md:basis-1/2 lg:basis-1/3">
+          <CarouselItem key={i} className="basis-1/2 md:basis-1/3 lg:basis-1/4">
             <div className="p-1">
             <div className="relative group overflow-hidden rounded-lg">
               <img
@@ -52,7 +55,7 @@ function CarouselSize() {
                   aspectRatio: "400/300",
                   objectFit: "cover",
                 }}
-                width="400"
+              
               />
               <div className="absolute inset-0 flex items-end bg-gradient-to-t from-black/70 to-transparent p-4">
                 {/* <p className="text-white text-sm font-medium">Caption 1</p> */}
