@@ -1,7 +1,14 @@
-
+ 
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 const images = Array(35).fill(0).map((_, i) => `/images/gallery/${i + 1}.jpg`);
 
-function Gallery() {
+export default function Gallery() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container grid gap-8 px-4 md:px-6 lg:grid-cols-1">
@@ -13,8 +20,28 @@ function Gallery() {
             Explore our collection of stunning images.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {images.map((i) => (
+       <CarouselSize />
+      </div>
+    </section>
+  );
+}
+
+
+
+
+ 
+function CarouselSize() {
+  return (
+    <Carousel
+      opts={{
+        align: "start",
+      }}
+      className="w-full"
+    >
+      <CarouselContent>
+        {images.map((i) => (
+          <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3">
+            <div className="p-1">
             <div className="relative group overflow-hidden rounded-lg">
               <img
                 alt="Image 1"
@@ -31,11 +58,12 @@ function Gallery() {
                 {/* <p className="text-white text-sm font-medium">Caption 1</p> */}
               </div>
             </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+            </div>
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
+  )
 }
-
-export default Gallery;
