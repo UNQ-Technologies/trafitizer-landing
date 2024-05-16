@@ -7,6 +7,7 @@ import Contact from "./sections/contact";
 import Testimonials from "./sections/testimonials";
 import Tail from "./sections/tail";
 import NavBar from "./sections/navbar";
+import Press from "./sections/press";
 
 function App() {
   return (
@@ -174,6 +175,7 @@ function App() {
 
       <Featured />
       <Testimonials />
+      <Press />
       <Tail />
       <Gallery />
       <Contact />
