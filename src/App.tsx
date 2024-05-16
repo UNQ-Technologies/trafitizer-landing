@@ -41,7 +41,7 @@ function App() {
           </Highlight>
         </motion.h1>
       </HeroHighlight>
-      <section id="recognitions">
+      <section>
         <div className="container my-16 mx-auto px-6  w-full h-full flex items-center justify-center">
           <div className="text-center text-base lg:text-2xl">
             <p className="mb-4 text-justify ">
