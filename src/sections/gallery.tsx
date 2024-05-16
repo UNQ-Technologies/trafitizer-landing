@@ -10,7 +10,7 @@ const images = Array(35).fill(0).map((_, i) => `/images/gallery/${i + 1}.jpg`);
 
 export default function Gallery() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 ">
+    <section id="gallery" className="w-full py-12 md:py-24 lg:py-32 ">
       <div className="container grid gap-8 px-4 md:px-6 lg:grid-cols-1 overflow-hidden">
         <div className="space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">

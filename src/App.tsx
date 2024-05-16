@@ -8,6 +8,7 @@ import Testimonials from "./sections/testimonials";
 import Tail from "./sections/tail";
 import NavBar from "./sections/navbar";
 import Press from "./sections/press";
+import Recognitions from "./sections/recognitions";
 
 function App() {
   return (
@@ -198,6 +199,7 @@ function App() {
       </section>
 
       <Featured />
+      <Recognitions />
       <Testimonials />
       <Press />
       <Tail />
