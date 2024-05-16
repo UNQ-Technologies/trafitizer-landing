@@ -17,7 +17,7 @@ export default function Gallery() {
             Our Gallery
           </h2>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            Explore our collection of stunning images.
+            Explore our life saving journey
           </p>
         </div>
         <div className="w-full overflow-hidden">
@@ -43,10 +43,11 @@ function CarouselSize() {
     >
       <CarouselContent>
         {images.map((i) => (
-          <CarouselItem key={i} className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+          <CarouselItem key={i}   onClick={() => window.open(i, "_blank")} className="basis-1/2 md:basis-1/3 lg:basis-1/4">
             <div className="p-1">
             <div className="relative group overflow-hidden rounded-lg">
-              <img
+              <img 
+              onClick={() => window.open(i, "_blank")}
                 alt="Image 1"
                 className="object-cover w-full h-60"
                 height="300"
