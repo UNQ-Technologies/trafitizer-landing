@@ -92,11 +92,15 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="space-y-4">
+              <div className="border-2 rounded-full p-3 w-fit border-sky-600">
+
+              
               <img
                 src="/images/icons/ai.png"
                 alt="ai"
                 className="h-12 w-12 text-blue-500"
               />
+              </div>
               <h3 className="text-xl font-semibold">Traffic Intelligence</h3>
               <p>
                 The AI based system makes decisions to give green light for E.V
@@ -105,11 +109,15 @@ function App() {
               </p>
             </div>
             <div className="space-y-4">
+              <div className="border-2 rounded-full p-3 w-fit border-sky-600">
+
+              
               <img
                 src="/images/icons/intelig.png"
                 alt="ai"
                 className="h-12 w-12 text-blue-500"
               />
+              </div>
               <h3 className="text-xl font-semibold">Level 2 Intelligence</h3>
               <p>
                 The AI based system makes decisions to give green light for E.V
@@ -118,11 +126,15 @@ function App() {
               </p>
             </div>
             <div className="space-y-4">
+              <div className="border-2 rounded-full p-3 w-fit border-sky-600">
+
+              
               <img
                 src="/images/icons/export.png"
                 alt="ai"
                 className="h-12 w-12 text-blue-500"
               />
+              </div>
               <h3 className="text-xl font-semibold">Priority Levels</h3>
               <p>
                 First Responders can choose the priority level. The system will
@@ -131,11 +143,15 @@ function App() {
               </p>
             </div>
             <div className="space-y-4">
+              <div className="border-2 rounded-full p-3 w-fit border-sky-600">
+
+              
               <img
                 src="/images/icons/compact.png"
                 alt="ai"
                 className="h-12 w-12 text-blue-500"
               />
+              </div>
               <h3 className="text-xl font-semibold">Compatibility</h3>
               <p>
                 The hardware is compatible with all the traffic signal
@@ -145,11 +161,15 @@ function App() {
               </p>
             </div>
             <div className="space-y-4">
+              <div className="border-2 rounded-full p-3 w-fit border-sky-600">
+
+              
               <img
                 src="/images/icons/green.png"
                 alt="ai"
                 className="h-12 w-12 text-blue-500"
               />
+              </div>
               <h3 className="text-xl font-semibold">Green Corridor</h3>
               <p>
                 This facility helps to ease the process of organ
@@ -157,11 +177,15 @@ function App() {
               </p>
             </div>
             <div className="space-y-4">
+              <div className="border-2 rounded-full p-3 w-fit border-sky-600">
+
+              
               <img
                 src="/images/icons/cost.png"
                 alt="ai"
                 className="h-12 w-12 text-blue-500"
               />
+              </div>
               <h3 className="text-xl font-semibold">Low Operating Cost</h3>
               <p>
                 The software has undergone several architectural level revisions
