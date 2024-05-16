@@ -50,7 +50,7 @@ function Featured() {
             return (
               <HoverCard key={k} openDelay={0} closeDelay={0}>
                 <HoverCardTrigger>
-                  <div className="mx-auto flex w-full items-center justify-center">
+                  <div onClick={() => window.open(features[i], "_blank")} className="mx-auto flex w-full items-center justify-center">
                     <img
                       alt="Logo"
                       className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center  hover:grayscale transition-all"

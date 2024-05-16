@@ -80,7 +80,7 @@ function Press() {
           {press.map((k) => (
             <HoverCard key={k.title} openDelay={0} closeDelay={0}>
               <HoverCardTrigger>
-                <div className="mx-auto flex w-full items-center justify-center">
+                <div onClick={() => k.image && window.open(k.image, "_blank")} className="mx-auto flex w-full items-center justify-center">
                   <img
                     alt="Logo"
                     className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center  hover:grayscale transition-all"

@@ -22,7 +22,7 @@ function Contact() {
               <div className="flex items-start gap-4">
                 <PhoneIcon className="mt-1 h-5 w-5 text-gray-500 dark:text-gray-400" />
                 <div>
-                  <p className="font-medium">+91 9895 363 130</p>
+                  <p className="font-medium">+91 703 480 9999</p>
                   <p className="text-gray-500 dark:text-gray-400">
                     Monday - Friday, 9am - 5pm
                   </p>
@@ -31,7 +31,7 @@ function Contact() {
               <div className="flex items-start gap-4">
                 <MailboxIcon className="mt-1 h-5 w-5 text-gray-500 dark:text-gray-400" />
                 <div>
-                  <p className="font-medium">support@unq.ai</p>
+                  <a className="font-medium" href="mailto:jasim@unq.ai">support@unq.ai</a>
                   <p className="text-gray-500 dark:text-gray-400">
                     Get in touch with us anytime
                   </p>
