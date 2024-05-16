@@ -68,7 +68,7 @@ function Featured() {
                     A video covering the product and its features is available. You can watch it here.
                   </p>
                   <Button size="sm" className="mt-4" onClick={() => window.open(features[i], "_blank")}>
-                   Open link
+                   Watch video
                   </Button>
                 </HoverCardContent>
               </HoverCard>
