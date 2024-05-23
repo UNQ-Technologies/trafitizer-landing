@@ -12,7 +12,7 @@ const features = [
   "", // Mathrbhumi
   "https://drive.google.com/file/d/1-sPxLnRLSKwQxUrenR9eHA1NFWtKQ5KV/view?usp=drive_link", // Manorama
   "https://drive.google.com/file/d/1s2uKgFh_2t88PRZylFYS0GB1Zl9iFXM-/view?usp=drive_link", // WRI "
-  "", // Dooradarshan
+  "https://drive.google.com/file/d/1iizqC_hf7U9YvV4FoTOBD6oN6LRXSEwW/view?usp=drive_link", // Dooradarshan
 ];
 
 const images = Array(7)

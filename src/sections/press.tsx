@@ -27,19 +27,19 @@ const press = [
   {
     title: "The New Indian Express",
     logo: "/images/press/5.png",
-    image: "/images/press-release/New Indian Express 21-11-16.JPG",
+    image: "/images/press-release/New Indian Express 21-11-16 Edited.png",
     date: "21-11-16",
   },
   {
     title: "Malayala Manorama",
     logo: "/images/press/6.png",
-    image: "/images/press-release/06 Manorama P-16 24-8-17.jpg",
+    image: "/images/press-release/06 Manorama P-16 24-8-17.png",
     date: "24-8-17",
   },
   {
     title: "Madyamam",
     logo: "/images/press/7.png",
-    image: "/images/press-release/08 UNQ Madhyamam News.jpeg",
+    image: "/images/press-release/07 Madyamam 25-8-17.png",
   },
   {
     title: "Scoop Whoop",
@@ -58,6 +58,12 @@ const press = [
   {
     title: "Mangalam",
     logo: "/images/press/11.png",
+  },
+  {
+    title: "Mathrubhumi",
+    logo: "/images/press/12.png",
+    image: "/images/press-release/Mathrubumi 21-11-16.png",
+    date: "21-11-16",
   },
 ];
 
