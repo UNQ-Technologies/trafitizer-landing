@@ -15,12 +15,13 @@ function YoutubeSection() {
           Intro about Trafitizer and its features.
           </p>
         </div>
-        <div className="flex flex-col gap-4 lg:flex-row relative w-full ">
-        <Player url="https://youtu.be/JAMoIY5qpxw?si=BzmUPsk1WNs6ntln" controls />
-        <Player url="https://youtu.be/XIpcix3dz6Y?si=uNH5wK0sDZg-vGNb" controls />
+     
+      </div>
+        <div className="flex md:container mt-8 flex-col gap-4 px-4 lg:flex-row relative w-full ">
+        <Player url="https://youtu.be/JAMoIY5qpxw?si=BzmUPsk1WNs6ntln" controls width="100%" />
+        <Player url="https://youtu.be/XIpcix3dz6Y?si=uNH5wK0sDZg-vGNb" controls width="100%" />
      
         </div>
-      </div>
     </section>
   );
 }
