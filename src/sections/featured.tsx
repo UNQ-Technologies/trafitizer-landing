@@ -42,9 +42,9 @@ function Featured() {
                 <img
                   alt="Logo"
                   className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center  hover:grayscale transition-all"
-                  height="70"
+                  height="100"
                   src={k}
-                  width="140"
+                  width="180"
                 />
               );
             return (
@@ -53,10 +53,10 @@ function Featured() {
                   <div onClick={() => window.open(features[i], "_blank")} className="mx-auto flex w-full items-center justify-center">
                     <img
                       alt="Logo"
-                      className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center  hover:grayscale transition-all"
-                      height="70"
+                      className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center hover:grayscale transition-all"
+                      height="100"
                       src={k}
-                      width="140"
+                      width="180"
                     />
                   </div>
                 </HoverCardTrigger>

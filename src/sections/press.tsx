@@ -84,9 +84,9 @@ function Press() {
                   <img
                     alt="Logo"
                     className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center  hover:grayscale transition-all"
-                    height="70"
+                    height="100"
                     src={k.logo}
-                    width="140"
+                    width="180"
                   />
                 </div>
               </HoverCardTrigger>

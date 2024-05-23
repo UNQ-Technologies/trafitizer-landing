@@ -9,6 +9,7 @@ import Tail from "./sections/tail";
 import NavBar from "./sections/navbar";
 import Press from "./sections/press";
 import Recognitions from "./sections/recognitions";
+import YoutubeSection from "./sections/youtube";
 
 function App() {
   return (
@@ -41,6 +42,9 @@ function App() {
           </Highlight>
         </motion.h1>
       </HeroHighlight>
+      <section>
+
+      </section>
       <section>
         <div className="container my-16 mx-auto px-6  w-full h-full flex items-center justify-center">
           <div className="text-center text-base lg:text-2xl">
@@ -89,6 +93,7 @@ function App() {
           </div>
         </div>
       </section>
+      <YoutubeSection />
       <section id="feature" className="bg-white py-16">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
