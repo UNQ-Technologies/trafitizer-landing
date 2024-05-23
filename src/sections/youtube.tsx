@@ -10,10 +10,10 @@ function YoutubeSection() {
       <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
         <div className="space-y-3">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-          Know more
+          Introduction & Demo
           </h2>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-          Know more about Trafitizer and its features.
+          Intro about Trafitizer and its features.
           </p>
         </div>
         <div className="flex flex-col gap-4 lg:flex-row">
