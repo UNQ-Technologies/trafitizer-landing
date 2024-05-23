@@ -20,7 +20,7 @@ export default function Recognitions() {
             Recognitions
           </h2>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            Explore the achivements of our team.
+            Explore the milestones covered by Trafitizer.
           </p>
         </div>
         <div className="w-full">
