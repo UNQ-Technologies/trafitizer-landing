@@ -15,7 +15,7 @@ function YoutubeSection() {
           Intro about Trafitizer and its features.
           </p>
         </div>
-        <div className="flex flex-col gap-4 lg:flex-row">
+        <div className="flex flex-col gap-4 lg:flex-row relative w-full ">
         <Player url="https://youtu.be/JAMoIY5qpxw?si=BzmUPsk1WNs6ntln" controls />
         <Player url="https://youtu.be/XIpcix3dz6Y?si=uNH5wK0sDZg-vGNb" controls />
      
