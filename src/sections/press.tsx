@@ -44,6 +44,11 @@ const press = [
     image: "/images/press-release/07 Madyamam 25-8-17.png",
   },
   {
+    title: "India Today",
+    logo: "/images/press/India_Today_logo.png",
+    link: "https://indiatoday.intoday.in/story/solution-found-to-end-problem-of-ambulances-stuck-in-traffic/1/987663.html",
+  },
+  {
     title: "Scoop Whoop",
     logo: "/images/press/8.png",
     link: "https://www.scoopwhoop.com/kerala-startup-ambulances-dont-get-stuck-in-traffic/?ref=WA-AMP",
