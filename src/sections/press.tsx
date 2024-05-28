@@ -15,10 +15,12 @@ const press = [
   {
     title: "Business Standard",
     logo: "/images/press/2.png",
+    link: "https://www.business-standard.com/article/technology/kochi-start-up-s-ai-system-helps-ambulances-steer-clear-of-traffic-jams-117062600509_1.html",
   },
   {
     title: "Daily News and Analysis",
     logo: "/images/press/3.png",
+    link: "http://www.dnaindia.com/technology/report-kerala-techies-find-novel-way-to-end-ambulances-getting-stuck-at-traffic-junctions-2484088",
   },
   {
     title: "TIE Kerala",
@@ -44,10 +46,12 @@ const press = [
   {
     title: "Scoop Whoop",
     logo: "/images/press/8.png",
+    link: "https://www.scoopwhoop.com/kerala-startup-ambulances-dont-get-stuck-in-traffic/?ref=WA-AMP",
   },
   {
     title: "News Bytes",
     logo: "/images/press/9.png",
+    link: "https://www.business-standard.com/article/technology/kochi-start-up-s-ai-system-helps-ambulances-steer-clear-of-traffic-jams-117062600509_1.html",
   },
   {
     title: "Deepika",
@@ -86,10 +90,17 @@ function Press() {
           {press.map((k) => (
             <HoverCard key={k.title} openDelay={0} closeDelay={0}>
               <HoverCardTrigger>
-                <div onClick={() => k.image && window.open(k.image, "_blank")} className="mx-auto flex w-full items-center justify-center">
+                <div
+                  onClick={
+                    k.link
+                      ? () => window.open(k?.link, "_blank")
+                      : () => window.open(k.image, "_blank")
+                  }
+                  className="mx-auto cursor-pointer flex w-full items-center justify-center"
+                >
                   <img
                     alt="Logo"
-                    className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center  hover:grayscale transition-all"
+                    className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center hover:grayscale transition-all"
                     height="100"
                     src={k.logo}
                     width="180"
@@ -100,13 +111,20 @@ function Press() {
                 <p>{k.title} </p>
                 <p className="text-sm">{k.date}</p>
                 {k.image && <img src={k.image} alt="press-release" />}
-                {k.image && (
-                  <Button
-                    size="sm"
-                    className="mt-4"
-                    onClick={() => window.open(k.image, "_blank")}
-                  >Open in new tab</Button>
-                )}
+                {k.image ||
+                  (k.link && (
+                    <Button
+                      size="sm"
+                      className="mt-4"
+                      onClick={
+                        k.link
+                          ? () => window.open(k?.link, "_blank")
+                          : () => window.open(k.image, "_blank")
+                      }
+                    >
+                      Open in new tab
+                    </Button>
+                  ))}
               </HoverCardContent>
             </HoverCard>
           ))}
