@@ -32,10 +32,6 @@ export default function Gallery() {
   );
 }
 
-
-
-
- 
 function CarouselSize() {
   return (
     <Carousel

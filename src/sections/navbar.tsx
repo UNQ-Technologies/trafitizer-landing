@@ -2,13 +2,13 @@ import { Button } from "@/components/ui/button";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Award, Boxes, Camera, Home, Images } from "lucide-react";
+import { Award, Boxes, Camera, Images, Phone } from "lucide-react";
 import React from "react";
 const navItems = [
   {
     name: "Contact",
     link: "#contact",
-    icon: <Home className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    icon: <Phone className="h-4 w-4 text-neutral-500 dark:text-white" />,
   },
   {
     name: "Gallery",
