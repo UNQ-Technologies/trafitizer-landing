@@ -31,7 +31,7 @@ function Contact() {
               <div className="flex items-start gap-4">
                 <MailboxIcon className="mt-1 h-5 w-5 text-gray-500 dark:text-gray-400" />
                 <div>
-                  <a className="font-medium" href="mailto:jasim@unq.ai">support@unq.ai</a>
+                  <a className="font-medium" href="mailto:jasim@unq.ai">jasim@unq.ai</a>
                   <p className="text-gray-500 dark:text-gray-400">
                     Get in touch with us anytime
                   </p>
