@@ -27,7 +27,7 @@ function Tail() {
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
           <div className="flex items-center space-x-4">
-            <LinkedinIcon className="text-blue-400 w-8 h-8 mt-1" />
+            <LinkedinIcon onClick={() => window.open("https://www.linkedin.com/in/mohamedjasim/", "_blank")} className="text-blue-400 w-8 h-8 mt-1" />
             <div className="mt-4 text-center">
               <p className=" font-bold text-xl leading-3">Founder</p>
               <p className="text-xl">Mohamed Jasim</p>
