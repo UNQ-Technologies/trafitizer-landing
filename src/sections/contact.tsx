@@ -42,12 +42,12 @@ function Contact() {
           <div className="rounded-xl flex flex-col w-full h-44 items-center">
             <img
               alt="Map"
-              className="w-[150px] h-[150px] shrink-0"
+              className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] shrink-0"
               src="/images/logo.png"
             />
             <img
               alt="Name"
-              className="aspect-auto h-[52px] my-4 shrink-0"
+              className="aspect-auto h-[25px] lg:h-[52px] my-4 shrink-0"
               src="/images/text-logo.png"
             />
           </div>
