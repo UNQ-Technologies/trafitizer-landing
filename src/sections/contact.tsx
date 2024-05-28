@@ -3,7 +3,7 @@ import { MailboxIcon, MapPinIcon, PhoneIcon } from "lucide-react";
 function Contact() {
   return (
     <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 pb-6">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
@@ -42,14 +42,18 @@ function Contact() {
           <div className="rounded-xl flex flex-col w-full h-44 items-center">
             <img
               alt="Map"
-              className="w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] shrink-0"
+              className="w-[100px] h-[100px] lg:w-[125px] lg:h-[125px] shrink-0"
               src="/images/logo.png"
             />
             <img
               alt="Name"
-              className="aspect-auto h-[25px] lg:h-[52px] my-4 shrink-0"
+              className="aspect-auto h-[25px] lg:h-[32px] mt-4 shrink-0"
               src="/images/text-logo.png"
             />
+            <div className="text-sky-600 mt-2 font-bold">When seconds matters to save a life</div>
+            <div className="my-1 leading-3 mt-3 text-gray-700">Powered by</div>
+            <div className="my-1 leading-3 text-gray-700">UNQ Technologies Private Limited</div>
+
           </div>
         </div>
       </div>
