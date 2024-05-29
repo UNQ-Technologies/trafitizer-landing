@@ -64,10 +64,7 @@ const press = [
     image: "/images/press-release/03 Deepika 18-11-16.png",
     date: "18-11-16",
   },
-  {
-    title: "Mangalam",
-    logo: "/images/press/11.png",
-  },
+
   {
     title: "Mathrubhumi",
     logo: "/images/press/12.png",
